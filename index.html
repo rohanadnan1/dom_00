@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,600,0,200" />
+    <title>Beam-Show-Password</title>
+</head>
+<body>
+    <div class="center">
+        <form action="">
+            <span class="input">
+                <span class="label">Username</span>
+                <input type="text" class="input-input">
+            </span>
+            <span class="input">
+                <span class="label">Password</span>
+                <input type="password" class="input-input" id="password">
+                <div class="light">
+                    <span onclick="toggle(this)" id="flash" class="material-symbols-outlined">
+                        visibility_off
+                        </span>
+                        <div class="beam"></div>
+                </div>
+            </span>
+
+            <span class="input">
+                <button type="button">SIGN IN</button>
+            </span>
+        </form>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
